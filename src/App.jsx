@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <Routes>
-          <Route element={<MainLayout />} path='/'>
+          <Route element={<MainLayout />} path='/react-router-navigation'>
             <Route element={<Home />} index />
             <Route element={<About />} path='about' />
             <Route element={<Contacts />} path='contacts' />
