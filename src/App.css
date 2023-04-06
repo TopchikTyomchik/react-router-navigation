@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: darkslategrey;
+  min-height: 60px;
+}
+
+a{
+  font-size: 30px;
+  color: lightblue;
+}
+
+.active {
+  color: rgb(24, 128, 162);
+  text-decoration: none;
+}
+
+nav a:not(:last-child){
+  margin-right: 20PX;
+}
+
+.courseLink {
+  color: white;
+  text-decoration: none;
+}
+.courseLink:hover {
+  text-decoration: underline;
+}
+
+
+
+.singleCourseLink:hover {
+  text-decoration: underline;
+}
